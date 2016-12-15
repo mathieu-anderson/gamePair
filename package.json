@@ -1,0 +1,20 @@
+{
+  "name": "gamePair",
+  "version": "1.0.0",
+  "description": "Find someone to play with! Not dirty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieu-anderson/gamePair.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathieu-anderson/gamePair/issues"
+  },
+  "homepage": "https://github.com/mathieu-anderson/gamePair#readme"
+}
