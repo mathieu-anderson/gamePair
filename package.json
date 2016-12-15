@@ -4,7 +4,8 @@
   "description": "Find someone to play with! Not dirty.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,17 @@
     "url": "https://github.com/mathieu-anderson/gamePair/issues"
   },
   "homepage": "https://github.com/mathieu-anderson/gamePair#readme",
-  "devDependencies": {
+
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.6",
     "knex": "^0.12.6",
     "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+
   }
 }
