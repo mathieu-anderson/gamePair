@@ -9,10 +9,11 @@
       <input placeholder="Choose a username" type="text" name="user_name" /><br><br>
       {{#each games}}
         <div >
-          {{this.game_name}}
-          <input type="checkbox" name="{{this.game_name}}" value="">
+          <label for="{{this.id}}">{{this.game_name}}</label>
+          <input type="checkbox" name="gameIds" value="{{this.id}}" id="{{this.id}}" />
         </div>
       {{/each}}
+      <br><br><input type="submit" value="Submit">
     </form><br><br>
 
     <div >

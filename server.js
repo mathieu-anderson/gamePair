@@ -27,3 +27,4 @@ app.get('/test', (req, res) => {
 })
 
 app.get('/newuser', routes.newUser)
+app.post('/newuser', routes.addUser)
