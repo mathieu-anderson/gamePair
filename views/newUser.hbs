@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New User</title>
+  </head>
+  <body>
+    <form class="new_user" action="/newuser" method="post" id="user_name" /><br><br>
+      <input placeholder="Choose a username" type="text" name="user_name" /><br><br>
+      {{#each games}}
+        <div >
+          {{this.game_name}}
+          <input type="checkbox" name="{{this.game_name}}" value="">
+        </div>
+      {{/each}}
+    </form><br><br>
+
+    <div >
+      <a href='/'>Cancel</a>
+    </div>
+  </body>
+</html>
