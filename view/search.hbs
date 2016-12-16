@@ -1,0 +1,10 @@
+<p>Look for a partner!</p>
+
+<form class="searchGame" action="/search/result" method="post">
+  <select name="games" multiple>
+    {{#each games}}
+    <option value="hearthstone">{{game_name}}</option>
+    {{/each}}
+  </select>
+  <input type="submit" name="submitGame" value="Pair up!">
+</form>
